@@ -2,8 +2,8 @@
 import os
 import re
 import json
+from urllib.parse import urlencode
 
-from urllib import urlencode
 from scrapy import log
 from scrapy.spiders import CrawlSpider
 from scrapy.selector import Selector
